@@ -1,0 +1,15 @@
+{
+    "name":"unitedprototype/php-ga",
+    "description":"'ga.js in PHP' - Implementation of a generic server-side Google Analytics client in PHP that implements nearly every parameter and tracking feature of the original GA Javascript client.",
+	"homepage":"http://code.google.com/p/php-ga/",
+    "autoload":{
+        "psr-0":{
+            "UnitedPrototype\\":"src/"
+        }
+    },
+	"license" : "LGPL-3.0",
+    "require":{
+        "php":">=5.3"
+    },
+    "minimum-stability":"dev"
+}
